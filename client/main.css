@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  position: relative;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.column-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.center-aligned-column-layout {
+  align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.column-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.twenty-five-percent-wide {
+  width: 25%;
+}
+
+.fifty-percent-wide {
+  width: 50%;
+}
+
+.login-box {
+  border-color: black;
+  border-style: solid;
+  width: 100%;
+  padding: 5%;
+  margin: 2%;
+  text-align: left;
+  align: left;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.left-aligned-text {
+  text-align: left;
+}
+
+.form-fields {
+  display: grid;
+  grid-template-columns: [labels] 2fr [values] 3fr;
+  grid-gap: 10px;
+}
+
+.form-label {
+  grid-column: 1 / 2;
+  font-weight: 600;
+}
+
+.form-value {
+  grid-column: 2 / 3;
+  width: 100%;
+}
